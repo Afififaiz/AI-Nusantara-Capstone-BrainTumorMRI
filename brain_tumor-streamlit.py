@@ -109,7 +109,7 @@ def get_description(predicted_class):
 
 # Homepage
 def homepage():
-    st.image(r"ss/home.png", use_column_width=True)
+    st.image(r"home.png", use_column_width=True)
 
     st.markdown("""
         <style>
@@ -165,7 +165,7 @@ def homepage():
 
     st.write("")
     st.write("")
-    st.image(r"ss\home2.png", use_column_width=True)
+    st.image(r"home2.png", use_column_width=True)
 
        # Use session state for page navigation
     if st.button("Make Predictions"):
@@ -174,7 +174,7 @@ def homepage():
 
 # Main Prediction Page
 def prediction_page():
-    st.image(r"ss/ai.png", use_column_width=True)
+    st.image(r"ai.png", use_column_width=True)
     st.write("Upload an image to classify. You can have the image through the button below. Download it and predict")
 
     if st.button("Go Download a sample"):
@@ -211,7 +211,7 @@ def prediction_page():
 
 # History Page
 def history_page():
-    st.image(r"ss/his.png", use_column_width=True)
+    st.image(r"his.png", use_column_width=True)
 
     # Check if there's any history
     if 'history' in st.session_state and st.session_state['history']:
@@ -273,7 +273,7 @@ def main():
     if 'page' not in st.session_state:
         st.session_state.page = "Home"
 
-    st.sidebar.image(r"ss/ailogo.png", use_column_width=True)
+    st.sidebar.image(r"ailogo.png", use_column_width=True)
 
     st.sidebar.title("Navigation")
 

@@ -109,7 +109,7 @@ def get_description(predicted_class):
 
 # Homepage
 def homepage():
-    st.image(r"C:\Users\AFIFI FAIZ\Documents\TumorDeploy\ss\home.png", use_column_width=True)
+    st.image(r"ss\home.png", use_column_width=True)
 
     st.markdown("""
         <style>
@@ -165,7 +165,7 @@ def homepage():
 
     st.write("")
     st.write("")
-    st.image(r"C:\Users\AFIFI FAIZ\Documents\TumorDeploy\ss\home2.png", use_column_width=True)
+    st.image(r"ss\home2.png", use_column_width=True)
 
        # Use session state for page navigation
     if st.button("Make Predictions"):

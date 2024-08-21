@@ -34,7 +34,7 @@ class CNNModel(nn.Module):
 GDRIVE_FILE_ID = '1rgnAFKBux3TTGUqu19ulJzhtxbmAAxTP'
 
 # Download the model directly from Google Drive
-@st.cache_resource  # Cache the download and loading of the model
+#@st.cache_resource  # Cache the download and loading of the model
 def load_model_from_gdrive():
     url = f'https://drive.google.com/uc?id={GDRIVE_FILE_ID}'
     output = 'temp_model.pth.tar'  # Temporary file name for the downloaded model

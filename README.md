@@ -21,3 +21,9 @@ Data Augementation techniques used:
 -VerticalFlip
 
 -RandomAffine
+
+
+The app can be accessed through link below:
+
+
+https://ai-nusantara-capstone-braintumormri-e6zsbshgfznrnpjhnwdvfx.streamlit.app/
